@@ -29,26 +29,15 @@ Likelihood and Impact are each scored 1 (Low) to 5 (High). Score = Likelihood ×
 
 ## Risk Heat Map
 
-```mermaid
-quadrantChart
-    title Risk Heat Map (Likelihood vs Impact)
-    x-axis Low Likelihood --> High Likelihood
-    y-axis Low Impact --> High Impact
-    quadrant-1 Critical - Act Now
-    quadrant-2 Monitor Closely
-    quadrant-3 Accept
-    quadrant-4 Mitigate Impact
-    "RISK-01 Duplicate Processing": [0.6, 0.9]
-    "RISK-02 Poison Messages": [0.4, 0.68]
-    "RISK-03 Hot Partition": [0.6, 0.72]
-    "RISK-04 Vendor Lock-in": [0.8, 0.3]
-    "RISK-05 Retry Storm Cost": [0.4, 0.48]
-    "RISK-06 PII Exposure": [0.4, 0.95]
-    "RISK-07 Carrier Outage": [0.58, 0.55]
-    "RISK-08 Debugging Skill Gap": [0.62, 0.58]
-    "RISK-09 Schema Drift": [0.42, 0.52]
-    "RISK-10 PCI Scope Error": [0.38, 0.72]
-```
+Likelihood and Impact bucketed as Low (1–2) / Medium (3) / High (4–5), from the scores in the Register above.
+
+| Likelihood \ Impact | Low | Medium | High |
+|---|---|---|---|
+| **High** | RISK-04 Vendor Lock-in | — | — |
+| **Medium** | — | RISK-07 Carrier Outage<br>RISK-08 Debugging Skill Gap | RISK-01 Duplicate Processing<br>RISK-03 Hot Partition |
+| **Low** | — | RISK-05 Retry Storm Cost<br>RISK-09 Schema Drift | RISK-02 Poison Messages<br>RISK-06 PII Exposure<br>RISK-10 PCI Scope Error |
+
+The two High-scoring risks (RISK-01, top right) get priority mitigation attention; RISK-04 (accepted, top left) is monitored but not actively mitigated per the economic case trade-off in `ARC-001-SOBC-v1.0`.
 
 ## Review Cadence
 
