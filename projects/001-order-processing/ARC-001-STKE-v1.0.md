@@ -29,6 +29,27 @@ This analysis covers the stakeholders for replacing the monolithic order-managem
 
 ## Power/Interest Grid Summary
 
+```mermaid
+quadrantChart
+    title Stakeholder Power / Interest Grid
+    x-axis Low Interest --> High Interest
+    y-axis Low Influence --> High Influence
+    quadrant-1 Manage Closely
+    quadrant-2 Keep Satisfied
+    quadrant-3 Monitor
+    quadrant-4 Keep Informed
+    "Head of E-Commerce": [0.65, 0.95]
+    "Engineering Lead": [0.95, 0.82]
+    "Fulfillment Ops Lead": [0.62, 0.68]
+    "Security and Compliance": [0.95, 0.58]
+    "CFO": [0.28, 0.75]
+    "Carrier Integrations": [0.12, 0.40]
+    "Payment Gateway": [0.12, 0.15]
+    "Internal Audit": [0.40, 0.28]
+    "Customer Support Lead": [0.65, 0.40]
+    "End Customers": [0.95, 0.15]
+```
+
 |  | **Low Interest** | **High Interest** |
 |---|---|---|
 | **High Influence** | Keep Satisfied<br>— CFO / Finance Director | Manage Closely<br>— Head of E-Commerce<br>— Fulfillment Operations Lead<br>— Security & Compliance Officer<br>— Engineering Lead (Platform team) |
