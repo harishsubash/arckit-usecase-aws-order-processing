@@ -38,16 +38,16 @@ quadrantChart
     quadrant-2 Keep Satisfied
     quadrant-3 Monitor
     quadrant-4 Keep Informed
-    Head of E-Commerce: [0.85, 0.9]
-    Fulfillment Ops Lead: [0.8, 0.85]
-    CFO: [0.55, 0.85]
-    Customer Support Lead: [0.75, 0.5]
-    Security & Compliance: [0.8, 0.85]
-    Engineering Lead: [0.85, 0.9]
-    Carrier Integrations: [0.3, 0.45]
-    Payment Gateway: [0.25, 0.45]
-    End Customers: [0.9, 0.2]
-    Internal Audit: [0.5, 0.5]
+    "Head of E-Commerce": [0.85, 0.9]
+    "Fulfillment Ops Lead": [0.8, 0.85]
+    "CFO": [0.55, 0.82]
+    "Customer Support Lead": [0.75, 0.5]
+    "Security and Compliance": [0.78, 0.88]
+    "Engineering Lead": [0.82, 0.92]
+    "Carrier Integrations": [0.3, 0.45]
+    "Payment Gateway": [0.25, 0.42]
+    "End Customers": [0.9, 0.2]
+    "Internal Audit": [0.5, 0.5]
 ```
 
 ## Engagement Cadence

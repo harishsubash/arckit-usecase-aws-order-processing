@@ -38,16 +38,16 @@ quadrantChart
     quadrant-2 Monitor Closely
     quadrant-3 Accept
     quadrant-4 Mitigate Impact
-    RISK-01 Duplicate Processing: [0.6, 0.9]
-    RISK-02 Poison Messages: [0.4, 0.7]
-    RISK-03 Hot Partition: [0.6, 0.7]
-    RISK-04 Vendor Lock-in: [0.8, 0.3]
-    RISK-05 Retry Storm Cost: [0.4, 0.5]
-    RISK-06 PII Exposure: [0.4, 0.95]
-    RISK-07 Carrier Outage: [0.6, 0.55]
-    RISK-08 Debugging Skill Gap: [0.6, 0.55]
-    RISK-09 Schema Drift: [0.4, 0.5]
-    RISK-10 PCI Scope Error: [0.4, 0.7]
+    "RISK-01 Duplicate Processing": [0.6, 0.9]
+    "RISK-02 Poison Messages": [0.4, 0.68]
+    "RISK-03 Hot Partition": [0.6, 0.72]
+    "RISK-04 Vendor Lock-in": [0.8, 0.3]
+    "RISK-05 Retry Storm Cost": [0.4, 0.48]
+    "RISK-06 PII Exposure": [0.4, 0.95]
+    "RISK-07 Carrier Outage": [0.58, 0.55]
+    "RISK-08 Debugging Skill Gap": [0.62, 0.58]
+    "RISK-09 Schema Drift": [0.42, 0.52]
+    "RISK-10 PCI Scope Error": [0.38, 0.72]
 ```
 
 ## Review Cadence

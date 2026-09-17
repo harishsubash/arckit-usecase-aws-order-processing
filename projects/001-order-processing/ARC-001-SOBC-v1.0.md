@@ -52,7 +52,7 @@ Strangler-fig migration (see `ARC-001-STRAT-v1.0`): new order-acceptance path ru
 
 ```mermaid
 gantt
-    title Order Processing Platform — Indicative Delivery Timeline
+    title Order Processing Platform - Indicative Delivery Timeline
     dateFormat YYYY-MM-DD
     section Discovery & Design
     Stakeholder analysis & requirements :done, d1, 2026-09-01, 14d
